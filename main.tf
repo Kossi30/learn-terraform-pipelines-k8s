@@ -1,8 +1,10 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"    
+    organization = "Terraformtraining30
+"    
     workspaces {
       name = "learn-terraform-pipelines-k8s"
+"
     }
   }
 required_providers {
